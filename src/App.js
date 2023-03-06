@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { Nav } from './ui/components/navbar/nav'
+import { About } from './ui/partials/about/about'
+import { Schedule } from './ui/partials/schedule/schedule'
+import { Comunities } from './ui/partials/comunities/comunities'
+import { Ministries } from './ui/partials/ministries/ministries'
+import { Faq } from './ui/partials/faq/faq'
+import { Footer } from './ui/components/footer/footer'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <>
+    <Nav/>
+    <About/>
+    <Schedule/>
+    <Comunities/>
+    <Ministries/>
+    <Faq/>
+    <Footer/>
+  </>
+  )
 }
 
-export default App;
+export default App
