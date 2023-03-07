@@ -1,8 +1,10 @@
+import { StyledSection } from "../../styles/sections/styled-section"
+
 const Section = (props) => {
     return(
-        <section>
+        <StyledSection>
             {props.children}
-        </section>
+        </StyledSection>
     )
 }
 
