@@ -1,12 +1,15 @@
+import { StyledUl} from "../../styles/navbar/styled-menu"
+import { LinkDefault } from "../links/default-link"
+
 const Menu = () => {
     return(
-        <ul>
-          <li><a>Sobre</a></li>
-          <li><a>Horários</a></li>
-          <li><a>Comunidades</a></li>
-          <li><a>Pastorais</a></li>
-          <li><a>Dúvidas frequentes</a></li>
-        </ul>
+        <StyledUl>
+          <li><LinkDefault>Sobre</LinkDefault></li>
+          <li><LinkDefault>Horários</LinkDefault></li>
+          <li><LinkDefault>Comunidades</LinkDefault></li>
+          <li><LinkDefault>Pastorais</LinkDefault></li>
+          <li><LinkDefault>Dúvidas frequentes</LinkDefault></li>
+        </StyledUl>
     )
 }
 
