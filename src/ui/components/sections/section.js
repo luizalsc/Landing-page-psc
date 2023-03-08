@@ -1,4 +1,4 @@
-import { StyledSection } from "../../styles/sections/styled-section"
+import { StyledSection, StyledYellowSection } from "../../styles/sections/styled-section"
 
 const Section = (props) => {
     return(
@@ -8,5 +8,13 @@ const Section = (props) => {
     )
 }
 
-export { Section }
+const YellowSection = (props) => {
+    return(
+        <StyledYellowSection>
+            {props.children}
+        </StyledYellowSection>
+    )
+}
+
+export { Section, YellowSection }
 

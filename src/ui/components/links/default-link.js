@@ -1,7 +1,7 @@
-import { StyledeLink } from "../../styles/link/default-link"
+import { StyledLink } from "../../styles/link/default-link"
 
 export const LinkDefault = (props) => {
     return(
-        <StyledeLink>{props.children}</StyledeLink>
+        <StyledLink>{props.children}</StyledLink>
     )
 }
