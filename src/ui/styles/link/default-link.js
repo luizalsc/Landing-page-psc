@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const StyledeLink = styled.a`
+export const StyledLink = styled.a`
     padding: 1rem;
     transition: color 0.2s ease;
 
