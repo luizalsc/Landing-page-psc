@@ -1,15 +1,21 @@
 import { Section } from "../../components/sections/section"
-import { H1 } from '../../styles/default-styles/default-styles'
-import { LinkDefault } from "../../components/links/default-link"
+import { H1, RedLink, Img } from '../../styles/default-styles/default-styles'
+import { StyledComunitiesContainer } from "../../styles/partials-styles/comunities-style"
 
 const Comunities = () => {
     return (
         <Section>
-            <div>
+            <StyledComunitiesContainer>
                 <H1>Comunidades</H1>
-                <LinkDefault>Comunidade São José</LinkDefault>
-                <LinkDefault>Comunidade Nossa Senhora do Carmo</LinkDefault>
-            </div>
+                <div  className='card sj'>
+                    <Img src='../../../imgs/capela-nsc.png'></Img>
+                    <RedLink>Comunidade São José</RedLink>
+                </div>
+                <div  className='card nsc'>
+                    <Img src='../../../imgs/capela-sj.png'></Img>
+                    <RedLink>Comunidade Nossa Senhora do Carmo</RedLink>
+                </div>
+            </StyledComunitiesContainer>
         </Section>
     )
 }
