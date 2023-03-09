@@ -10,6 +10,6 @@ export const StyledSection = styled.section`
 `
 
 export const StyledYellowSection = styled(StyledSection)`
-background-color: rgb(240,230,240);
+background-color: rgb(240,230,170);
 `
 
